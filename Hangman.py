@@ -15,7 +15,6 @@ while lives > 0:
 
     guess = input("Your guess: ")
     correct = 0
-    print(lenght)
     
     for i in range(1, len(word) - 1):
         if guess == word[i]:
